@@ -1,0 +1,22 @@
+{
+  "name": "eth-insights-collector",
+  "version": "1.0.1",
+  "description": "An extension of Web3WondersNFTGatherer to provide rarity rankings and market trend insights for NFT collections.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "web3-nft-gatherer": "^1.0.0",
+    "nft-rarity-calculator": "^1.0.0",
+    "market-trend-analyzer": "^1.0.0",
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  },
+  "author": "makaka9691",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/makaka9691/eth-insights-collector"
+  }
+}
